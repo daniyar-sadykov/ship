@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ship",
+  "description": "Команда /ship для Claude Code: довести работу до влитого main",
+  "owner": {
+    "name": "Daniyar Sadykov",
+    "url": "https://github.com/daniyar-sadykov"
+  },
+  "plugins": [
+    {
+      "name": "ship",
+      "source": "./plugins/ship",
+      "displayName": "Ship",
+      "description": "Команда /ship: проверки, коммит по conventional commits, пулреквест, squash-влитие, уборка ветки. Работает и без GitHub CLI, тогда вливает локально",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniyar Sadykov"
+      },
+      "homepage": "https://github.com/daniyar-sadykov/ship",
+      "repository": "https://github.com/daniyar-sadykov/ship",
+      "keywords": ["ship", "git", "pull-request", "commit", "workflow"]
+    }
+  ]
+}

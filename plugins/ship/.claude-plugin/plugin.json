@@ -1,0 +1,12 @@
+{
+  "name": "ship",
+  "displayName": "Ship",
+  "description": "Команда /ship: проверки, коммит по conventional commits, пулреквест, squash-влитие, уборка ветки. Работает и без GitHub CLI, тогда вливает локально",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniyar Sadykov"
+  },
+  "homepage": "https://github.com/daniyar-sadykov/ship",
+  "repository": "https://github.com/daniyar-sadykov/ship",
+  "keywords": ["ship", "git", "pull-request", "commit", "workflow"]
+}
